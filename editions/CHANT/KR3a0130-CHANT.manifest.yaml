@@ -1,0 +1,46 @@
+canonical_identifier: bkk:krp/KR3a0130/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3a0130/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 袁子正論二卷
+  identifiers:
+    krp: KR3a0130
+  tags:
+    kr-categories: KR3a
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3a0130.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3a0130_001-CHANT.yaml, hash: 'sha256:85dcab8fa2ee55d00668c02cbbef3e79ad316746e114972c7e8ddfff9e1aa19d'}
+  - {seq: 2, filename: KR3a0130_002-CHANT.yaml, hash: 'sha256:0d2309f3b59bb4a79281c35f2f3bc2ec01885df21f63259f1d741f34c77a940a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3a0130_001-CHANT.markers.yaml, hash: 'sha256:10064ea0aed3567768a37160b6e18677783c1882d98dbf218d2ac19ba80b5b43'}
+  - {seq: 2, role: markers, filename: assets/KR3a0130_002-CHANT.markers.yaml, hash: 'sha256:63f338e92f16e7dd3bc5553b8568382e12c72e418d9ea5d1d8cdf16feb513c1e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3a0130_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 1805
+  label: 袁子正論卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3a0130_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 3188
+  label: 袁子正論卷下
+  type: section
+  level: 1
+hash: sha256:01fb86461e4205ebf1a509fcfa7a00f8f53678d43e870543937f5a8737f2908f
