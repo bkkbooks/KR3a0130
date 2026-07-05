@@ -17,11 +17,11 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR3a0130_001.yaml, hash: 'sha256:3b53af8c35cb4c7976e9a6ba3ac1cfdcaf0b214f3943fc6f7f7db9481a2dc7bf'}
-  - {seq: 2, filename: KR3a0130_002.yaml, hash: 'sha256:a361a4bdfa751853265547937f00264a0894e443f857acf3db9007221af33d15'}
+  - {seq: 1, filename: KR3a0130_001.yaml, hash: 'sha256:85dcab8fa2ee55d00668c02cbbef3e79ad316746e114972c7e8ddfff9e1aa19d'}
+  - {seq: 2, filename: KR3a0130_002.yaml, hash: 'sha256:0d2309f3b59bb4a79281c35f2f3bc2ec01885df21f63259f1d741f34c77a940a'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR3a0130_001.markers.yaml, hash: 'sha256:8fbccb215a43e265952c3ef3eb9acd5cb4baf29a0d860e0aab0ae65286bac47c'}
-  - {seq: 2, role: markers, filename: assets/KR3a0130_002.markers.yaml, hash: 'sha256:83f917642b72a318f8bd60421bdf2a0a99d1b5ef3fcc675db329b078c9690a42'}
+  - {seq: 1, role: markers, filename: assets/KR3a0130_001.markers.yaml, hash: 'sha256:569515d116992aab6828c964c51e75e3959925747cf953d97a6ce9e66963baf0'}
+  - {seq: 2, role: markers, filename: assets/KR3a0130_002.markers.yaml, hash: 'sha256:e61727a952a1d5ccbc33faf8fd0326a67952ac17f4d12606f1965b0ea9fc1fc1'}
 table_of_contents:
 - ref:
     seq: 1
@@ -43,7 +43,4 @@ table_of_contents:
   label: 袁子正論卷下
   type: section
   level: 1
-hash: sha256:4e15b1af96255ffc9444f14361675141b8ce18b884614aa6d475c8bc9a110727
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:1c630e03c11961825dcdf536e0569183e2a1f5b985e031a58c8ae9b8fc7fbf6b
